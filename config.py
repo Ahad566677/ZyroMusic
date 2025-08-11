@@ -9,29 +9,29 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = getenv("API_ID", "")
-API_HASH = getenv("API_HASH", "")
+API_ID = getenv("API_ID", "22657083")
+API_HASH = getenv("API_HASH", "d6186691704bd901bdab275ceaab88f3")
 
 EVAL = list(map(int, getenv("EVAL", "0000000 0000000").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "EvilAddiction_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "AyakaXMusicBot")
 # --------------------------------------------------------
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-DB_NAME = getenv("DB_NAME", "Zyro")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ahad0181888:ahad0181888@cluster0.f9casz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = getenv("DB_NAME", "ahad")
 #---------------------------------------------------------------
 # ----------------------------------------------------------------
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002740659166))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002791009509))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7710841624))
+OWNER_ID = int(getenv("OWNER_ID", 8086485131))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -59,8 +59,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Fine_N_Ok")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/My_Logs_Gc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EX_BOT_UPDATES")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+G42j7plUt91mYmQx")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -134,7 +134,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/d62yml.mp4"
+    "START_IMG_URL", "https://files.catbox.moe/408ozy.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/ghaqbv.jpg"
